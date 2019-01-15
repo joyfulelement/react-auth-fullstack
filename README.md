@@ -6,6 +6,3 @@ This repository consists of two parts that forms the fullstack react authenticat
 
 2. Frontend with React with an User Interface that allows user to login/logout with session cookies.
 
-# Running the App
-
-Backend
