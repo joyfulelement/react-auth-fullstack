@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "SEE LICENSE IN LICENSE",
+  "description": "Node.js Express backend of the fullstack react authentication web app",
+  "author": "Kevin C Chen",
+  "private": false,
+  "scripts": {
+    "configure": "./bin/configuredb.sh",
+    "start": "yarn run configure && node ./bin/www",
+    "dev": "yarn run configure && nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cookie-parser": "1.4.3",
+    "cors": "2.8.5",
+    "crypto-js": "3.1.9-1",
+    "express": "4.16.4",
+    "pg": "7.8.0",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.9"
+  }
+}
